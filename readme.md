@@ -11,6 +11,7 @@
 
 ## 🧬 Data structures
 ### Linear data structures
+Data is arranged in a sequential manner where each element is connected to its previous and next element, making traversal simple and in a single level.
 * Array
   * Static array
   * Dynamic array
@@ -27,6 +28,7 @@
 * Hash Table
 
 ### Non-linear data structures
+Data elements are arranged in a hierarchical or interconnected manner, allowing multiple levels of traversal paths, which is not sequential.
 * Tree
   * Binary tree
   * Binary search tree
