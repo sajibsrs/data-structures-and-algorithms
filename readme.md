@@ -1,4 +1,4 @@
-# # Data Structures and Algorithms
+# Data Structures and Algorithms
 
 ## 🔬 Algorithm analysis (Asymptotic Analysis)
 * Time complexity
