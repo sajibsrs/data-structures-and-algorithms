@@ -1,68 +1,86 @@
-# # Data Structures and Algorithms in PHP
+# # Data Structures and Algorithms
 
-## # Primitive data types
+## 🔬 Algorithm analysis (Asymptotic Analysis)
+* Time complexity
+* Space complexity
 
-## # Abstract data types (ADT)
-
-## # Asymptotic Analysis / Algorithm analysis
-* [Algorithmic complexity](docs/algorithm-complexity.md)
-* [Time complexity](docs/algorithm-complexity.md#-time-complexity)
-* [Space complexity](docs/algorithm-complexity.md#-space-complexity)
-
-### # Asymptotic notations
+### Asymptotic notations
 * Big-O notation - $O$ (worst case / upper bound)
 * Big-theta notation - $\Theta$ (Average case / tight bound)
 * Big-omega notation - $\Omega$ (Best case / lower bound)
 
-## # Data structures
-### # Linear data structures
+## 🧬 Data structures
+### Linear data structures
 * Array
+  * Static array
+  * Dynamic array
 * Stack
 * Queue
+  * Simple queue
+  * Circular queue
+  * Priority queue
 * Map
 * Linked list
   * Singly linked list
   * Doubly linked list
+  * Circular linked list
+* Hash Table
 
-### # Non linear data structures
+### Non-linear data structures
 * Tree
   * Binary tree
   * Binary search tree
-  * Self-balanced tree
-    * B-tree
-    * N-ary tree
+  * AVL tree
+  * Red-Black tree
+  * Heap
 * Graph
-* Heap
+  * Adjacency list
+  * Adjacency matrix
 * Trie
+* Set
+* Disjoint set
 
-## # Algorithms
-### # Search algorithms
+## 🧠 Algorithms
+### Search algorithms
 * Linear search
 * Binary search
-* Interpolation search
-* Exponential search
-* Search using hash table
-* Tree search
-  * Breadth first search
-  * Depth first search
+* Depth-First Search (DFS)
+* Breadth-First Search (BFS)
 
-### # Sort algorithms
-* Bubble sort
-* Selection sort
-* Insertion sort
-* Merge sort
-* Quick sort
-* Bucket sort
-* Divide and conquer sort
-* PHP built in sort
+### Sort algorithms
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
+* Heap Sort
+* Radix Sort
 
-### # Standard PHP Library (SPL) data structures
-* SplDoublyLinkedList
-* SplStack
-* SplQueue
-* SplHeap
-* SplMaxHeap
-* SplMinHeap
-* SplPriorityQueue
-* SplFixedArray
-* SplObjectStorage
+### Recursion Algorithms
+* Factorial
+* Fibonacci
+
+### Dynamic Programming
+* Fibonacci Series
+* Longest Common Subsequence
+* Knapsack Problem
+
+### Greedy Algorithms
+* Dijkstra's Algorithm
+* Kruskal’s Algorithm
+* Prim's Algorithm
+
+### Graph Algorithms
+* Topological Sort
+* Floyd-Warshall Algorithm
+* Bellman-Ford Algorithm
+* A* Search Algorithm
+
+### Divide and Conquer
+* Merge Sort
+* Quick Sort
+* Binary Search
+
+### Backtracking
+* N-Queens Problem
+* Rat in a Maze
