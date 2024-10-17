@@ -7,18 +7,18 @@ Linear search is a simple searching algorithm that checks each element in a list
 3. If the current element matches the target, return its index.
 4. If not, move to the next element.
 5. Repeat steps 2-4 until the end of the array is reached.
-6. If the target element is not found, return `null`.
+6. If the target element is not found, return `-1`.
 
 ## Implementation:
 ```php
-function linearSearch(array $input, $target): ?int
+function linearSearch(array $input, $target): int
 {
     foreach ($input as $index => $element) {
         if ($element === $target) {
             return $index;
         }
     }
-    return null;
+    return -1;
 }
 ```
 
