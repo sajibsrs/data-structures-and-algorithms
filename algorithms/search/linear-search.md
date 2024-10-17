@@ -10,6 +10,7 @@ Linear search is a simple searching algorithm that checks each element in a list
 6. If the target element is not found, return `-1`.
 
 ## Implementation
+Definition:
 ```php
 function linearSearch(array $arr, $target): int
 {
@@ -20,6 +21,16 @@ function linearSearch(array $arr, $target): int
     }
     return -1;
 }
+```
+Usage:
+```php
+$arr = [4, 5, 8, 3, 2, 9];
+echo linearSearch($arr, 2);
+```
+
+Output:
+```txt
+4
 ```
 
 ## Performance Analysis
