@@ -9,7 +9,7 @@ Linear search is a simple searching algorithm that checks each element in a list
 5. Repeat steps 2-4 until the end of the array is reached.
 6. If the target element is not found, return `-1`.
 
-## Implementation:
+## Implementation
 ```php
 function linearSearch(array $input, $target): int
 {
