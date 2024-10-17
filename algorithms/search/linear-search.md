@@ -11,9 +11,9 @@ Linear search is a simple searching algorithm that checks each element in a list
 
 ## Implementation
 ```php
-function linearSearch(array $input, $target): int
+function linearSearch(array $arr, $target): int
 {
-    foreach ($input as $index => $element) {
+    foreach ($arr as $index => $element) {
         if ($element === $target) {
             return $index;
         }
