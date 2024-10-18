@@ -53,7 +53,7 @@ Data elements are arranged in a hierarchical or interconnected manner, allowing 
 
 ### Sort algorithms
 * [Bubble Sort](./algorithms/sort/bubble-sort.md)
-* Selection Sort
+* [Selection Sort](./algorithms/sort/selection-sort.md)
 * Insertion Sort
 * Merge Sort
 * Quick Sort
