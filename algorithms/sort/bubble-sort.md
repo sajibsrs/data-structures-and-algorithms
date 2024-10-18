@@ -46,7 +46,7 @@ Result:
 [2, 5, 6, 7, 8]
 ```
 
-## Algorithm
+## Implementation
 Definition:
 ```php
 function bubbleSort(array &$arr): void
