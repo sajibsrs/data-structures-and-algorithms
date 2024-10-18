@@ -47,7 +47,7 @@ Data elements are arranged in a hierarchical or interconnected manner, allowing 
 ## 🧠 Algorithms
 ### Search algorithms
 * [Linear search](./algorithms/search/linear-search.md)
-* Binary search
+* [Binary search](./algorithms/search/binary-search.md)
 * Depth-First Search (DFS)
 * Breadth-First Search (BFS)
 
