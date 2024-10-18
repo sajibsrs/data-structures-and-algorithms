@@ -8,7 +8,7 @@ This implementation sorts values in ascending order (small to large).
 
 Input:
 ```txt
-[8, 5, 7, 2, 6]
+8, 5, 7, 2, 6
 ```
 
 Steps:
@@ -43,7 +43,7 @@ swaps: 7
 
 Result:
 ```txt
-[2, 5, 6, 7, 8]
+2, 5, 6, 7, 8
 ```
 
 ## Implementation
@@ -76,7 +76,7 @@ bubbleSort($arr);
 
 Output:
 ```txt
-[2, 5, 6, 7, 8]
+2, 5, 6, 7, 8
 ```
 
 ## Implementation
