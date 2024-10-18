@@ -58,7 +58,7 @@ function bubbleSort(array &$arr): void
             $swapped = false;
 
             if ($arr[$i] > $arr[$i + 1]) {
-                [$arr[$i], $arr[$i + 1]] = [$arr[$i + 1], $arr[$i]];
+                [$arr[$i], $arr[$i + 1]] = [$arr[$i + 1], $arr[$i]];  // List assignment or array destructure
                 $swapped = true;
             }
         }
