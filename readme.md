@@ -52,7 +52,7 @@ Data elements are arranged in a hierarchical or interconnected manner, allowing 
 * Breadth-First Search (BFS)
 
 ### Sort algorithms
-* Bubble Sort
+* [Bubble Sort](./algorithms/sort/bubble-sort.md)
 * Selection Sort
 * Insertion Sort
 * Merge Sort
