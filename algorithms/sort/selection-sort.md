@@ -6,6 +6,13 @@ Selection Sort is a comparison-based algorithm that repeatedly compares and sele
 ## How it works
 This implementation sorts values in ascending order (small to large).
 
+1. Select the first element of the array.
+2. Compare it with others and select the lowest value.
+3. Swap it with the first value.
+4. Then select the second element and repeat 1-3.
+5. Do the same for others.
+6. Array is sorted.
+
 Input:
 ```txt
 8, 5, 7, 2, 6
