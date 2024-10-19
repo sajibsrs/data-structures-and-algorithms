@@ -79,8 +79,6 @@ Output:
 2, 5, 6, 7, 8
 ```
 
-## Implementation
-
 ## Performance Analysis
 | Operation        | Time Complexity | Space Complexity |
 | ---------------- | --------------- | ---------------- |

@@ -10,8 +10,7 @@ This implementation sorts values in ascending order (small to large).
 2. Compare it with others and select the lowest value.
 3. Swap it with the first value.
 4. Then select the second element and repeat 1-3.
-5. Do the same for others.
-6. Array is sorted.
+5. Do the same for others, util array is sorted.
 
 Input:
 ```txt
@@ -91,8 +90,6 @@ Output:
 ```txt
 2, 5, 6, 7, 8
 ```
-
-## Implementation
 
 ## Performance Analysis
 | Operation        | Time Complexity | Space Complexity |
