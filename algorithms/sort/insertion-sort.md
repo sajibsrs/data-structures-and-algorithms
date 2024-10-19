@@ -15,22 +15,23 @@ Steps:
 ```txt
 current value: 5
 compared: 8 and 5
-swapped: 5 and 8
-
+moved: 8 to position of 5
+moved: 5 to position of 8
 current value: 7
 compared: 8 and 7
-swapped: 7 and 8
-
+moved: 8 to position of 7
+moved: 7 to position of 8
 current value: 2
 compared: 8 and 2
-swapped: 2 and 8
-swapped: 8 and 7
-swapped: 7 and 5
-
+moved: 8 to position of 2
+moved: 7 to position of 8
+moved: 5 to position of 7
+moved: 2 to position of 5
 current value: 6
 compared: 8 and 6
-swapped: 6 and 8
-swapped: 8 and 7
+moved: 8 to position of 6
+moved: 7 to position of 8
+moved: 6 to position of 7
 ```
 
 Analysis:
