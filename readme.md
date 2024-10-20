@@ -31,8 +31,8 @@ Data is arranged in a sequential manner where each element is connected to its p
 ### Non-linear data structures
 Data elements are arranged in a hierarchical or interconnected manner, allowing multiple levels of traversal paths, which is not sequential.
 
-* Tree
-  * Binary tree
+* [Tree](./data-structures/non-linear/tree.md)
+  * [Binary tree](./data-structures/non-linear/binary-tree.md)
   * Binary search tree
   * AVL tree
   * Red-Black tree
