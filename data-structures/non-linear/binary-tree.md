@@ -33,7 +33,7 @@ Pre-order Traversal is a type of Depth First Search. It's done by visiting the r
 
 > Usage: Creating a copy of the tree, prefix notation of an expression tree, etc.
 
-![Binary tree pre-order traversal](./img/binary-tree-balanced.png)
+![Binary tree pre-order traversal](./img/binary-tree-complete.png)
 
 ```php
 class Node
