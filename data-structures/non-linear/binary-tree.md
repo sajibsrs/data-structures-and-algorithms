@@ -10,6 +10,8 @@ A balanced Binary Tree has at most 1 in difference between its left and right su
 ### Complete
 A complete Binary Tree has all levels full of nodes, except the last level, which is can also be full, or filled from left to right. The properties of a complete Binary Tree means it is also balanced.
 
+![Complete binary tree](./img/binary-tree-complete.png)
+
 ### Full
 A full Binary Tree is a kind of tree where each node has either 0 or 2 child nodes.
 
