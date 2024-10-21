@@ -5,6 +5,8 @@ A Binary Tree is a type of tree data structure where each node can have a maximu
 ### Balanced
 A balanced Binary Tree has at most 1 in difference between its left and right subtree heights.
 
+![Balanced binary tree](./img/binary-tree-balanced.png)
+
 ### Complete
 A complete Binary Tree has all levels full of nodes, except the last level, which is can also be full, or filled from left to right. The properties of a complete Binary Tree means it is also balanced.
 
