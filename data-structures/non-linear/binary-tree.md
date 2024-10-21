@@ -15,11 +15,17 @@ A complete Binary Tree has all levels full of nodes, except the last level, whic
 ### Full
 A full Binary Tree is a kind of tree where each node has either 0 or 2 child nodes.
 
+![Full binary tree](./img/binary-tree-full.png)
+
 ### Perfect
 A perfect Binary Tree has all leaf nodes on the same level, which means that all levels are full of nodes, and all parent/internal nodes have two child nodes.The properties of a perfect Binary Tree means it is also full, balanced, and complete.
 
+![Perfect binary tree](./img/binary-tree-perfect.png)
+
 ### Degenerate / Pathological
 Degenerate binary tree has only one child node to each parent nodes.
+
+![Degenerate binary tree](./img/binary-tree-degenerate.png)
 
 ## Traversal
 ### Pre-order Traversal
