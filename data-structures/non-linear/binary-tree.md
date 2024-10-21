@@ -19,7 +19,11 @@ Degenerate binary tree has only one child node to each parent nodes.
 
 ## Traversal
 ### Pre-order Traversal
-Pre-order Traversal is a type of Depth First Search, where each node is visited in a certain order.
+Pre-order Traversal is a type of Depth First Search. It's done by visiting the root node first, then recursively do a pre-order traversal of the left subtree, followed by a recursive pre-order traversal of the right subtree.
+
+> Usage: Creating a copy of the tree, prefix notation of an expression tree, etc.
+
+![Binary tree pre-order traversal](./img/binary-tree-pre-order-traversal.jpg)
 
 ```php
 class Node
