@@ -1,4 +1,4 @@
-# Selection Sort Algorithm
+# Selection Sort
 Selection Sort is a comparison-based algorithm that repeatedly compares and selects the smallest element from the unsorted part and swaps it with the first unsorted element from the left side, thus growing the sorted part.
 
 > Worst case: When all elements are sorted in reverse order.

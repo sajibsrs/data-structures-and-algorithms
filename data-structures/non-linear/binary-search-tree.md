@@ -1,4 +1,4 @@
-# Binary Search Tree Data Structure
+# Binary Search Tree
 A Binary Search Tree (BST) is a binary tree in which each node has at most two children. Additionally, it follows the binary search property:
 
 - All levels are completely filled, except the last level.

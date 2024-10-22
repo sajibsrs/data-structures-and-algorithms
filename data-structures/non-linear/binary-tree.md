@@ -1,4 +1,4 @@
-# Binary Tree Data Structure
+# Binary Tree
 A Binary Tree is a type of tree data structure where each node can have a maximum of two child nodes, a left child node and a right child node.
 
 ## Types

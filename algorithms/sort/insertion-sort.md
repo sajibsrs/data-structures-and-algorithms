@@ -1,4 +1,4 @@
-# Insertion Sort Algorithm
+# Insertion Sort
 Insertion Sort is a simple sorting algorithm that builds the sorted array one element at a time. It works similarly to how you would sort playing cards in your hand. The algorithm removes one element from the input array, finds the location it belongs in the sorted part, and inserts it there.
 
 > Worst case: When all elements are sorted in reverse order.
