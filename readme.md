@@ -33,7 +33,7 @@ Data elements are arranged in a hierarchical or interconnected manner, allowing 
 
 * [Tree](./data-structures/non-linear/tree.md)
   * [Binary tree](./data-structures/non-linear/binary-tree.md)
-  * Binary search tree
+  * [Binary search tree](./data-structures/non-linear/binary-search-tree.md)
   * AVL tree
   * Red-Black tree
   * Heap
