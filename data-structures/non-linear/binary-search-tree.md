@@ -4,6 +4,8 @@ A Binary Search Tree (BST) is a binary tree in which each node has at most two c
 - All levels are completely filled, except the last level.
 - The last level is filled from left to right, with no gaps between nodes.
 
+![Binary search tree](./img/binary-search-tree1.png)
+
 ## Implementation
 ```php
 class Node
@@ -61,6 +63,8 @@ $bst->insert(40);
 $bst->insert(60);
 $bst->insert(80);
 ```
+
+![Binary search tree](./img/binary-search-tree1.png)
 
 ## Traversal
 ### Pre-order Traversal
@@ -197,6 +201,8 @@ $bst->remove(50);
 
 preOrderTraversal($bst->root);
 ```
+
+![Binary search tree remove](./img/binary-search-tree2.png)
 
 Output:
 ```txt
