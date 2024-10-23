@@ -66,6 +66,86 @@ $bst->insert(80);
 
 ![Binary search tree](./img/binary-search-tree1.png)
 
+## Searching Node
+```php
+class Node
+{
+    public ?Node $left = null;
+    public ?Node $right = null;
+
+    public function __construct(public int $data) {}
+}
+
+class BinarySearchTree
+{
+    public ?Node $root = null;
+
+    public function insert(int $data): void
+    {
+        $this->root = $this->insertNode($this->root, $data);
+    }
+
+    public function search(int $data): ?Node
+    {
+        return $this->searchNode($this->root, $data);
+    }
+
+    private function insertNode(?Node $node, int $data): Node
+    {
+        if ($node === null) {
+            return new Node($data);
+        }
+
+        if ($data < $node->data) {
+            $node->left = $this->insertNode($node->left, $data);
+        } elseif ($data > $node->data) {
+            $node->right = $this->insertNode($node->right, $data);
+        }
+
+        return $node;
+    }
+
+    private function searchNode(?Node $node, int $data): ?Node
+    {
+        if ($node === null || $node->data === $data) {
+            return $node;
+        }
+
+        if ($data < $node->data) {
+            return $this->searchNode($node->left, $data);
+        } else {
+            return $this->searchNode($node->right, $data);
+        }
+    }
+}
+```
+
+Usage:
+```php
+$bst = new BinarySearchTree();
+
+$bst->insert(50);
+$bst->insert(30);
+$bst->insert(70);
+$bst->insert(20);
+$bst->insert(40);
+$bst->insert(60);
+$bst->insert(80);
+
+$result = $bst->search(60);
+
+if ($result !== null) {
+    echo "Node with value 60 found: " . $result->data;
+} else {
+    echo "Node with value 60 not found.";
+}
+```
+
+Output:
+```txt
+Node with value 60 found: 60
+```
+
 ## Traversal
 ### Pre-order Traversal
 ```php
