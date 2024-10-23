@@ -40,7 +40,6 @@ Data elements are arranged in a hierarchical or interconnected manner, allowing 
 * Graph
 * Trie
 * Set
-* Disjoint set
 
 ## 🧠 Algorithms
 ### Search algorithms
