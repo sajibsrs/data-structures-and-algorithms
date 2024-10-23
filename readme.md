@@ -14,14 +14,11 @@
 Data is arranged in a sequential manner where each element is connected to its previous and next element, making traversal simple and in a single level.
 
 * Array
-  * Static array
-  * Dynamic array
 * Stack
 * Queue
   * Simple queue
   * Circular queue
   * Priority queue
-* Map
 * Linked list
   * Singly linked list
   * Doubly linked list
