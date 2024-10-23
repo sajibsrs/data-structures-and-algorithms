@@ -38,8 +38,6 @@ Data elements are arranged in a hierarchical or interconnected manner, allowing 
   * Red-Black tree
   * Heap
 * Graph
-  * Adjacency list
-  * Adjacency matrix
 * Trie
 * Set
 * Disjoint set
