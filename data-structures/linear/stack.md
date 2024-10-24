@@ -56,3 +56,12 @@ Result:
 ```txt
 20
 ```
+
+## Performance Analysis
+
+| Operation   | Time Complexity | Space Complexity |
+| ----------- | --------------- | ---------------- |
+| **Push**    | O(1)            | O(n)             |
+| **Pop**     | O(1)            | O(n)             |
+| **Peek**    | O(1)            | O(n)             |
+| **IsEmpty** | O(1)            | O(n)             |
