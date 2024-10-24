@@ -14,7 +14,7 @@
 Data is arranged in a sequential manner where each element is connected to its previous and next element, making traversal simple and in a single level.
 
 * Array
-* Stack
+* [Stack](./data-structures/linear/stack.md)
 * Queue
   * Simple queue
   * Circular queue
@@ -34,6 +34,8 @@ Data elements are arranged in a hierarchical or interconnected manner, allowing 
   * AVL tree
   * Red-Black tree
   * Heap
+    * Max-heap
+    * Min-heap
 * Graph
 * Trie
 * Set
