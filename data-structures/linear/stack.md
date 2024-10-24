@@ -35,6 +35,11 @@ class Stack
         return end($this->stack);
     }
 
+    public function size(): int
+    {
+        return count($this->stack);
+    }
+
     public function isEmpty(): bool
     {
         return empty($this->stack);
