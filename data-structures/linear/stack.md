@@ -61,7 +61,7 @@ Result:
 
 | Operation   | Time Complexity | Space Complexity |
 | ----------- | --------------- | ---------------- |
-| **Push**    | O(1)            | O(n)             |
-| **Pop**     | O(1)            | O(n)             |
-| **Peek**    | O(1)            | O(n)             |
-| **IsEmpty** | O(1)            | O(n)             |
+| **Push**    | O(1)            | O(1)             |
+| **Pop**     | O(1)            | O(1)             |
+| **Peek**    | O(1)            | O(1)             |
+| **IsEmpty** | O(1)            | O(1)             |
