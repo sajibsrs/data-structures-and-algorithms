@@ -10,7 +10,7 @@ Operations:
 ```php
 class Stack
 {
-    public array $stack = [];
+    private array $stack = [];
 
     public function push(mixed $item): void
     {
